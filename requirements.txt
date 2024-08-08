@@ -16,3 +16,4 @@ tgcrypto
 aiohttp
 yarl
 mega.py
+gunicorn
