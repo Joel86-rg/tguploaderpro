@@ -568,4 +568,4 @@ def main():
 
 if __name__ == '__main__':
     port = int(os.getenv('PORT', 8000))
-    bot_token.run(port=port)
+    bot.run(port=port)
