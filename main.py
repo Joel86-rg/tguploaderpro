@@ -565,8 +565,7 @@ def main():
     bot.onMessage(onmessage)
     bot.run()
 
+
 if __name__ == '__main__':
-    try:
-        main()
-    except:
-        main()
+    port = int(os.getenv('PORT', 8000))
+    bot_token.run(port=port)
